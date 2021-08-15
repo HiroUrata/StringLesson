@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     var uppercasedString = "abcdefg"
-   
+    var lowercasedString = "ABCDEFG"
 
     
     
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         print(uppercasedString.uppercased())
-        
+        print(lowercasedString.lowercased())
         
     
         
