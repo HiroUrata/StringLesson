@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     var uppercasedString = "abcdefg"
     var lowercasedString = "ABCDEFG"
-
+    var containString = "0123456789"
     
     
     override func viewDidLoad() {
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
         print(uppercasedString.uppercased())
         print(lowercasedString.lowercased())
-        
+        print(containString.contains("0"))
     
         
     }
