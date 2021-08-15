@@ -9,9 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var uppercasedString = "abcdefg"
+   
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        print(uppercasedString.uppercased())
+        
+        
+    
+        
     }
 
 
